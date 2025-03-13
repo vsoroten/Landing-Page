@@ -1,5 +1,6 @@
 body {
     font-family: system-ui, -apple-system, Roboto;
+    height: 100vh;
 }
 
 .header {
@@ -144,5 +145,16 @@ img {
 
 .fourth .sign-up {
     border: 1px solid #E5E7EB;
+}
+
+/*footer*/
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
 }
 
