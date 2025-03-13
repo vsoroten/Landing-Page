@@ -75,3 +75,33 @@ a {
 
 /*middle*/
 
+img {
+    width: 180px;
+    height: auto;
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+}
+
+.pic-title {
+    font-size: 36px;
+    font-weight: 900;
+    margin: 32px;
+}
+
+.second {
+    display: flex;
+    color: #1F2937;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second .container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 64px;
+}
+
+.pic {
+    max-width: 180px;
+}
